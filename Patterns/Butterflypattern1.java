@@ -1,3 +1,4 @@
+package Patterns;
 public class Butterflypattern1 {
     public static void butterfly(int n){
         int i,j;
