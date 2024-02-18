@@ -1,10 +1,15 @@
-public class Prime {
+public class Primerange {
+    public static void Primesinrange(int n){
+        for(int i=1;i<=n;i++){
+            if(isPrime(i)){
+                System.out.print(i+" ");
+            }
+        }
+        //System.out.println();  
+    }
     public static boolean isPrime (int n){
         if(n==2){
             return true;
-        }
-        if(n==1){
-            System.out.println(" 1 is neither prime nor composite");
         }
         boolean isprime = true;
         int i;
@@ -17,7 +22,8 @@ public class Prime {
         return isprime;
     }
     public static void main(String[] args) {
-        System.out.println(isPrime(2));
+        Primesinrange(20);
+     
     }
     
 }
