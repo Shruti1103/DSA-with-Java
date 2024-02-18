@@ -1,19 +1,19 @@
 public class Zeroonetriangle {
-    public static void binarytriangle(int n){
-     int i,j;
-        for(i=1;i<=n;i++){
-            for(j=1;j<=i;j++){
-                if((i+j)%2==0){
+    public static void binarytriangle(int n) {
+        int i, j;
+        for (i = 1; i <= n; i++) {
+            for (j = 1; j <= i; j++) {
+                if ((i + j) % 2 == 0) {
                     System.out.print(1);
-                   }
-                else{
+                } else {
                     System.out.print(0);
                 }
-                }
-                System.out.println(" ");
-               }
+            }
+            System.out.println(" ");
+        }
     }
-    public static void main(String[] args){
-          binarytriangle(5);
+
+    public static void main(String[] args) {
+        binarytriangle(5);
     }
 }
